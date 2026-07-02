@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yakut Mali Müşavirlik | Muhammet Lütfi Yakut</title>
+<meta name="description" content="Muhammet Lütfi Yakut - Serbest Muhasebeci Mali Müşavir. Yakut Mali Müşavirlik dijital kartvizit ve iletişim bilgileri.">
+<meta name="theme-color" content="#1f1f1f">
+<meta property="og:title" content="Yakut Mali Müşavirlik">
+<meta property="og:description" content="Muhammet Lütfi Yakut - Serbest Muhasebeci Mali Müşavir">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yakutmalimusavirlik.com">
+<meta property="og:image" content="https://yakutmalimusavirlik.com/assets/logo.png">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./assets/icon-32.png">
+<link rel="apple-touch-icon" href="./assets/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AccountingService","name":"Yakut Mali Müşavirlik","url":"https://yakutmalimusavirlik.com","telephone":"+905423458001","email":"yakutmalimusavirlik@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Sarıgazi Mah. Atatürk Cad. No:38 İç Kapı No:5","addressLocality":"Sancaktepe","addressRegion":"İstanbul","addressCountry":"TR"}}</script>
+</head>
+<body>
+<header class="container top">
+  <div class="pill">Yakut Digital v1.0</div>
+  <button class="mode" data-theme aria-label="Tema değiştir">◐</button>
+</header>
+<main>
+<section class="hero container">
+  <div class="main-card">
+    <img class="logo" src="./assets/logo.png" alt="Yakut Mali Müşavirlik Logosu">
+    <div class="kicker">Resmî Dijital Kartvizit</div>
+    <h1>Muhammet Lütfi Yakut</h1>
+    <p class="lead">Serbest Muhasebeci Mali Müşavir<br>Yakut Mali Müşavirlik</p>
+    <div class="actions">
+      <a class="btn primary" href="tel:+905423458001"><span>☎ Hemen Ara</span><span class="arrow">→</span></a>
+      <a class="btn" href="https://wa.me/905423458001?text=Merhaba%2C%20dijital%20kartvizitiniz%20%C3%BCzerinden%20ula%C5%9F%C4%B1yorum." target="_blank" rel="noopener"><span>💬 WhatsApp</span><span class="arrow">→</span></a>
+      <a class="btn" href="mailto:yakutmalimusavirlik@gmail.com"><span>✉️ E-posta Gönder</span><span class="arrow">→</span></a>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Sar%C4%B1gazi%20Mah.%20Atat%C3%BCrk%20Cad.%20No%3A38%20%C4%B0%C3%A7%20Kap%C4%B1%20No%3A5%20Sancaktepe%20%C4%B0stanbul" target="_blank" rel="noopener"><span>📍 Yol Tarifi Al</span><span class="arrow">→</span></a>
+      <a class="btn" href="./muhammet-lutfi-yakut.vcf"><span>👤 Rehbere Kaydet</span><span class="arrow">↓</span></a>
+    </div>
+    <div class="meta">
+      <div>0542 345 80 01</div>
+      <div>yakutmalimusavirlik@gmail.com</div>
+      <div>Sarıgazi Mah. Atatürk Cad. No:38 İç Kapı No:5<br>Sancaktepe / İstanbul</div>
+    </div>
+  </div>
+</section>
+<section class="section container">
+  <div class="section-head"><h2>Hizmetlerimiz</h2><p>Temel mali süreçlerde sade, güvenilir ve düzenli çalışma yaklaşımı.</p></div>
+  <div class="services">
+    <article class="service"><div class="icon">🧾</div><h3>Muhasebe Hizmetleri</h3><p>Aylık muhasebe süreçleri, beyanname ve mali raporlama.</p></article>
+    <article class="service"><div class="icon">📊</div><h3>Vergi Danışmanlığı</h3><p>Vergi mevzuatı, dönemsel kontrol ve süreç yönetimi.</p></article>
+    <article class="service"><div class="icon">🏢</div><h3>Şirket Kuruluşları</h3><p>Limited, anonim şirket kuruluş ve değişiklik işlemleri.</p></article>
+    <article class="service"><div class="icon">👥</div><h3>SGK & Bordro</h3><p>Personel, bordro, SGK bildirge ve işveren süreçleri.</p></article>
+    <article class="service"><div class="icon">💻</div><h3>E-Belge Süreçleri</h3><p>E-Fatura, E-Arşiv, E-Defter ve dijital dönüşüm desteği.</p></article>
+  </div>
+</section>
+<section class="section container">
+  <div class="contact">
+    <div class="panel">
+      <h2>İletişim</h2>
+      <p>Yakut Mali Müşavirlik iletişim bilgilerini rehberinize kaydedebilir, WhatsApp üzerinden mesaj gönderebilir veya yol tarifi alabilirsiniz.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://wa.me/905423458001?text=Merhaba%2C%20dijital%20kartvizitiniz%20%C3%BCzerinden%20ula%C5%9F%C4%B1yorum." target="_blank" rel="noopener"><span>💬 WhatsApp'tan Yaz</span><span class="arrow">→</span></a>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Sar%C4%B1gazi%20Mah.%20Atat%C3%BCrk%20Cad.%20No%3A38%20%C4%B0%C3%A7%20Kap%C4%B1%20No%3A5%20Sancaktepe%20%C4%B0stanbul" target="_blank" rel="noopener"><span>📍 Google Haritalar</span><span class="arrow">→</span></a>
+      </div>
+    </div>
+    <div class="panel qr">
+      <img src="./assets/qr.png" alt="Yakut Mali Müşavirlik QR kodu">
+      <p style="margin-top:16px">QR kodu okutarak dijital kartviziti açabilirsiniz.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="container">© <span id="year"></span> Yakut Mali Müşavirlik · İstanbul</footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+<script src="./script.js"></script>
+</body>
+</html>
