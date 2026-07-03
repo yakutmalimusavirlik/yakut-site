@@ -1,1 +1,1 @@
-# Yakut Site v1.4 - İlk Bilgilendirme
+# Yakut Site v1.3 — Bilgilendirme Card Component
