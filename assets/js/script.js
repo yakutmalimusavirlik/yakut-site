@@ -1,6 +1,6 @@
 
 
-// Bilgilendirme Card Component v1
+// Yakut Bilgilendirme Merkezi - Accordion + Share
 document.querySelectorAll('[data-notice-toggle]').forEach((button) => {
   button.addEventListener('click', () => {
     const card = button.closest('[data-notice-card]');
@@ -29,15 +29,13 @@ document.querySelectorAll('[data-notice-toggle]').forEach((button) => {
 document.querySelectorAll('[data-share-page]').forEach((button) => {
   button.addEventListener('click', async () => {
     const shareData = {
-      title: 'Yakut Mali Müşavirlik Bilgilendirme',
+      title: 'Nihai Tüketici Adına Düzenlenen Bilgi Fişlerine Dikkat',
       text: 'Yakut Mali Müşavirlik bilgilendirme içeriği',
       url: window.location.href
     };
 
     if (navigator.share) {
-      try {
-        await navigator.share(shareData);
-      } catch (error) {}
+      try { await navigator.share(shareData); } catch (error) {}
     } else if (navigator.clipboard) {
       await navigator.clipboard.writeText(window.location.href);
       button.textContent = 'Bağlantı Kopyalandı';
