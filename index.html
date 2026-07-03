@@ -277,6 +277,119 @@ a{text-decoration:none;color:inherit}
   @keyframes rise{from{opacity:0;transform:translateY(18px) scale(.986)}to{opacity:1;transform:none}}
   @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 }
+
+.site-shell{
+  width:min(1100px,calc(100% - 28px));
+  margin:70px auto 0;
+  padding:0 0 70px;
+}
+.site-nav{
+  position:sticky;
+  top:14px;
+  z-index:10;
+  width:min(860px,100%);
+  margin:0 auto 42px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  padding:12px 16px;
+  border:1px solid var(--line);
+  border-radius:22px;
+  background:rgba(255,253,248,.82);
+  backdrop-filter:blur(18px);
+  box-shadow:0 16px 50px rgba(18,18,18,.08);
+}
+.site-nav b{font-size:15px;letter-spacing:.01em}
+.site-nav .links{display:flex;gap:14px;flex-wrap:wrap;justify-content:flex-end}
+.site-nav a{font-size:13px;color:var(--muted);font-weight:700}
+.section{
+  width:min(860px,100%);
+  margin:0 auto 28px;
+  padding:34px;
+  border:1px solid var(--line);
+  border-radius:30px;
+  background:rgba(255,253,248,.76);
+  box-shadow:0 20px 70px rgba(18,18,18,.07);
+}
+.section h2{
+  margin:0 0 12px;
+  font-size:clamp(30px,4vw,44px);
+  letter-spacing:-.045em;
+  line-height:1;
+}
+.section p{
+  margin:0;
+  color:var(--muted);
+  line-height:1.7;
+  font-size:16px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+  margin-top:22px;
+}
+.mini-card{
+  padding:20px;
+  border:1px solid var(--line);
+  border-radius:22px;
+  background:rgba(255,255,255,.68);
+}
+.mini-card h3{
+  margin:0 0 8px;
+  font-size:18px;
+  letter-spacing:-.015em;
+}
+.mini-card ul{
+  margin:10px 0 0;
+  padding-left:18px;
+  color:var(--muted);
+  line-height:1.65;
+  font-size:14px;
+}
+.badges{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:20px;
+}
+.badge{
+  padding:10px 13px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.68);
+  color:#2a2723;
+  font-weight:750;
+  font-size:13px;
+}
+.linkedin{
+  display:inline-flex;
+  margin-top:22px;
+  align-items:center;
+  gap:10px;
+  padding:13px 16px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:rgba(255,255,255,.72);
+  font-weight:800;
+}
+.placeholder{
+  margin-top:18px;
+  padding:18px;
+  border:1px dashed rgba(178,15,24,.28);
+  border-radius:20px;
+  color:var(--muted);
+  background:rgba(178,15,24,.035);
+}
+@media(max-width:700px){
+  .site-shell{width:min(100% - 18px,1100px);margin-top:34px}
+  .site-nav{align-items:flex-start;flex-direction:column}
+  .site-nav .links{justify-content:flex-start}
+  .section{padding:24px;border-radius:24px}
+  .grid{grid-template-columns:1fr}
+}
+
 </style>
 </head>
 <body>
@@ -317,9 +430,9 @@ a{text-decoration:none;color:inherit}
       <span class="icon"><svg viewBox="0 0 24 24"><path d="M20 21a8 8 0 0 0-16 0"/><circle cx="12" cy="8" r="4"/></svg></span>
       <span><strong>Rehbere Kaydet</strong><small>VCF kişi kartı</small></span>
     </a>
-    <a class="tool" href="https://yakutmalimusavirlik.com" target="_blank" rel="noopener">
+    <a class="tool" href="#site">
       <span class="icon"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 14h2v6h-6v-2h4z"/></svg></span>
-      <span><strong>Bağlantıyı Aç</strong><small>yakutmalimusavirlik.com</small></span>
+      <span><strong>Siteye Giriş</strong><small>Kurumsal sayfa ve bilgilendirmeler</small></span>
     </a>
   </div>
 
@@ -331,6 +444,73 @@ a{text-decoration:none;color:inherit}
 
   <footer class="footer"><b>Yakut Mali Müşavirlik</b>© 2026 · İstanbul</footer>
 </section>
+
+<section id="site" class="site-shell" aria-label="Yakut Mali Müşavirlik kurumsal web sitesi">
+  <nav class="site-nav">
+    <b>Yakut Mali Müşavirlik</b>
+    <div class="links">
+      <a href="#yaklasim">Yaklaşımımız</a>
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#calisma-alanlari">Çalışma Alanları</a>
+      <a href="#bilgilendirme">Bilgilendirme</a>
+      <a href="#iletisim">İletişim</a>
+    </div>
+  </nav>
+
+  <section id="yaklasim" class="section">
+    <h2>Yaklaşımımız</h2>
+    <p>Yakut Mali Müşavirlik; güven, düzen, gizlilik ve süreklilik ilkeleriyle mükelleflerinin mali süreçlerini mevzuat çerçevesinde takip etmeyi esas almaktadır.</p>
+    <div class="grid">
+      <div class="mini-card"><h3>Güven</h3><p>Mesleki etik ilkeleri doğrultusunda hareket edilir.</p></div>
+      <div class="mini-card"><h3>Düzen</h3><p>Süreçlerin planlı, izlenebilir ve zamanında yürütülmesi amaçlanır.</p></div>
+      <div class="mini-card"><h3>Gizlilik</h3><p>Mükellef bilgilerinin gizliliğine özen gösterilir.</p></div>
+      <div class="mini-card"><h3>Süreklilik</h3><p>Uzun vadeli ve sürdürülebilir çalışma anlayışı benimsenir.</p></div>
+    </div>
+  </section>
+
+  <section id="hakkimizda" class="section">
+    <h2>Hakkımızda</h2>
+    <p><strong>Yakut Mali Müşavirlik</strong>, işletmelerin muhasebe, vergi ve mali süreçlerinde mevzuata uygun, düzenli ve sürdürülebilir bir çalışma anlayışıyla faaliyet göstermektedir.</p>
+    <p style="margin-top:14px">Ofisin kurucusu <strong>Muhammet Lütfi Yakut</strong>, İstanbul Serbest Muhasebeci Mali Müşavirler Odası (İSMMMO) üyesidir. Lisans eğitimini Marmara Üniversitesi İktisat Bölümü'nde, yüksek lisans eğitimini Marmara Üniversitesi Muhasebe ve Finansman alanında tamamlamıştır. Ayrıca IBAT College Dublin bünyesinde İngilizce dil eğitimi almıştır. Türkçe ve İngilizce iletişim kurulabilmektedir.</p>
+    <div class="badges">
+      <span class="badge">İSMMMO Üyesi</span>
+      <span class="badge">Marmara Üniversitesi · İktisat</span>
+      <span class="badge">Marmara Üniversitesi · Muhasebe ve Finansman</span>
+      <span class="badge">IBAT College Dublin</span>
+    </div>
+    <a class="linkedin" href="https://www.linkedin.com/in/m-l%C3%BCtfi-yakut-156b0a92/" target="_blank" rel="noopener">LinkedIn Profilini Aç ›</a>
+  </section>
+
+  <section id="calisma-alanlari" class="section">
+    <h2>Çalışma Alanlarımız</h2>
+    <p>Muhasebe, vergi, SGK, şirket işlemleri ve e-Dönüşüm süreçlerinde mali müşavirlik hizmetleri sunulmaktadır.</p>
+    <div class="grid">
+      <div class="mini-card"><h3>Muhasebe Hizmetleri</h3><ul><li>Genel muhasebe hizmetleri</li><li>Mali tabloların hazırlanması</li><li>Dönem sonu işlemleri</li></ul></div>
+      <div class="mini-card"><h3>Vergi Hizmetleri</h3><ul><li>Beyanname süreçleri</li><li>Vergi uygulamaları</li><li>KDV iade işlemleri</li><li>Gelir Vergisi iade işlemleri</li></ul></div>
+      <div class="mini-card"><h3>SGK ve Bordro</h3><ul><li>Personel özlük işlemleri</li><li>Bordrolama</li><li>SGK bildirge ve teşvik süreçleri</li></ul></div>
+      <div class="mini-card"><h3>Şirket İşlemleri</h3><ul><li>Şirket kuruluşu</li><li>Sermaye işlemleri</li><li>Tasfiye ve genel kurul süreçleri</li></ul></div>
+      <div class="mini-card"><h3>e-Dönüşüm</h3><ul><li>e-Fatura</li><li>e-Arşiv</li><li>e-Defter</li><li>e-İrsaliye</li></ul></div>
+      <div class="mini-card"><h3>Mali Danışmanlık</h3><ul><li>Mali mevzuat uygulamaları</li><li>Finansal değerlendirmeler</li><li>İşletmelere yönelik mali görüşler</li></ul></div>
+    </div>
+  </section>
+
+  <section id="bilgilendirme" class="section">
+    <h2>Bilgilendirme Merkezi</h2>
+    <p>Vergi, SGK, şirket işlemleri ve mali mevzuata ilişkin bilgilendirme içerikleri bu alanda yayınlanacaktır.</p>
+    <div class="placeholder">İlk bilgilendirme kartları bir sonraki adımda eklenecek.</div>
+  </section>
+
+  <section id="iletisim" class="section">
+    <h2>İletişim</h2>
+    <p>Sarıgazi Mahallesi, Atatürk Caddesi, No: 38 · İç Kapı No: 5, Sancaktepe / İstanbul</p>
+    <div class="badges">
+      <a class="badge" href="https://wa.me/905423458001" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="badge" href="mailto:yakutmalimusavirlik@gmail.com">E-posta</a>
+      <a class="badge" href="https://www.linkedin.com/in/m-l%C3%BCtfi-yakut-156b0a92/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+</section>
+
 </main>
 </body>
 </html>
