@@ -1,1 +1,1 @@
-# Yakut Site - Bilgilendirme Merkezi v1.3 - 8 İçerik
+# Yakut Site - Bilgilendirme Merkezi v1.4 Final
