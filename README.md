@@ -1,1 +1,1 @@
-# Yakut Site v1.4 - İlk Bilgilendirme Temiz Sürüm
+# Yakut Site Preview - Bilgilendirme Merkezi v1
