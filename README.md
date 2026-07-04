@@ -1,1 +1,1 @@
-# Yakut Site Preview - Bilgilendirme Merkezi v1
+# Yakut Site Sprint 01 - Bilgilendirme Merkezi
