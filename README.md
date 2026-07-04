@@ -1,1 +1,1 @@
-# Yakut Site - Bilgilendirme Merkezi v1.4 Final
+# Yakut Site - Bilgilendirme Merkezi v1.5 Enflasyon Onaylı
